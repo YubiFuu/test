@@ -1,0 +1,30 @@
+h1 {
+    font-size: 48px;
+    background-color: rgb(75, 75, 75);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+h2 {
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    color: rgb(209, 209, 209);
+    text-shadow: 2px 2px black;
+    text-indent: 80px;
+}
+p.one {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p.two {
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+ul {
+    background-color: rgb(167, 167, 167);
+}
+li {
+    text-indent: 60px;
+    background-color: rgb(104, 104, 104);
+}

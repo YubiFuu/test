@@ -1,0 +1,24 @@
+h1 {
+    font-size: 48px;
+    background-color: rgb(75, 75, 75);
+    text-shadow: 2px 2px black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+h2 {
+    text-shadow: 0.5px 0.5px #777;
+    letter-spacing: 2px;
+}
+p.one {
+    text-indent: 50px;
+    word-spacing: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p.two {
+    text-indent: 100px;
+    word-spacing: 0px;
+}

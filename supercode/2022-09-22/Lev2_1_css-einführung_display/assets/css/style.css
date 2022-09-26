@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    border: 2px solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    min-width: 300px;
+}
+ul {
+    list-style-position: inside;
+    margin: 10px;
+    padding: 10px;
+}

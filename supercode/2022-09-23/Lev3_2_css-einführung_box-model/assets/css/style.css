@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    color: white;
+    background-image: url("../img/plants.jpg");
+    background-size: cover;
+    height: 60vh;
+    min-height: 500px;
+}
+
+header h1 {
+    font-family: "Fredericka the Great", cursive;
+    /* font-size: 3vw; */
+    font-size: min(max(16px, 3vw), 30px);
+    padding: 2vh 10vw;
+}
+
+header h2 {
+    font-family: "Fredericka the Great", cursive;
+    font-size: min(max(16px, 2vw), 25px);
+}
+
+header section {
+    margin: 15vh auto;
+    text-align: center;
+    height: 21vh;
+    min-height: 200px;
+    width: 21vw;
+    min-width: 200px;
+}
+
+p {
+    margin-bottom: 10px;
+    padding: 1vh 1vw;
+    font-size: min(max(10px, 1vw), 14px);
+}
+a.button1 {
+    font-size: min(max(10px, 1vw), 14px);
+    padding: min(max(3px, 1vh), 8px) 15px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+a.button1:hover {
+    color: black;
+    background-color: white;
+}
+
+ul {
+    margin: 5vh -40vw;
+    list-style-type: none;
+    float: right;
+}
+li {
+    font-size: min(max(10px, 1vw), 14px);
+    text-align: right;
+    padding: 0.5vh min(max(150px, 5vw), 100px);
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+section.body {
+    margin: 5vh auto;
+    text-align: center;
+    height: 21vh;
+    min-height: 200px;
+    width: 42vw;
+    min-width: 400px;
+}
+p.body {
+    margin: 5vh auto;
+}
+
+body h2 {
+    font-family: "Fredericka the Great", cursive;
+    font-size: min(max(16px, 2vw), 25px);
+}
+
+div.contact {
+    margin: auto;
+    border: 4px groove rgb(121, 121, 121);
+
+    width: 125px;
+}
+
+a.contact {
+    text-decoration: none;
+}
+a.contact:hover {
+    text-decoration: underline;
+}
+
+p.contact {
+    font-size: 10px;
+
+    color: black;
+    padding: 0px;
+    margin: 10px;
+}
+footer {
+    margin-top: 15vh;
+    padding-top: 2vh;
+    background-color: rgb(82, 83, 100);
+
+    min-height: 130px;
+}
+p.footer {
+    font-size: min(max(7px, 1vw), 10px);
+    color: white;
+}
+ul.two {
+    margin: 30px 0 0;
+    padding: 0;
+    display: block;
+}
+
+li.two {
+    color: white;
+    display: inline;
+    margin: 2px;
+    padding: 2px;
+}

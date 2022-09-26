@@ -1,0 +1,35 @@
+body {
+    font-size: 20px;
+}
+h2 {
+    background-color: #333;
+    color: white;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+p {
+    color: #333;
+}
+ul {
+    color: #777;
+}
+h3 {
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: overline;
+    text-align: left;
+}
+h4 {
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: line-through;
+    text-align: center;
+}
+h5 {
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: right;
+}

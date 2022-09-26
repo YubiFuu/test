@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Montserrat&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 80%;
+    margin: auto;
+}
+h2 {
+    padding: 4px;
+    color: red;
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    padding: 4px;
+    color: red;
+    font-size: 16px;
+    font-family: "Literata", serif;
+}
+img {
+    width: 100px;
+    border: 5px solid green;
+    border-radius: 100px;
+}
+div {
+    background-color: rgb(160, 160, 160);
+}
+div p {
+    color: black;
+}
+div p:first-of-type {
+    color: green;
+}
+ul {
+    padding: 4px 14px;
+    margin: 5px 10px;
+    list-style-position: inside;
+}
+ol {
+    padding: 4px 14px;
+    margin: 5px 10px;
+    list-style-position: inside;
+}

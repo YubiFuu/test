@@ -69,16 +69,16 @@ section {
     min-height: 700px;
 }
 section.main {
-    padding: 3vw 0;
+    padding: 35vh 3vw;
 
     margin-left: 10vw;
-    margin-top: 35vh;
+
     background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-position: 6vh 20rem;
     background-repeat: no-repeat;
 }
 
 div.main {
-    margin-top: 5vh;
     max-width: 30vw;
 }
 section.image {

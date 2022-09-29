@@ -36,7 +36,6 @@ h2 {
     display: block;
     margin: 0 auto;
     padding: 20vh 0;
-
     color: white;
     text-align: center;
     max-width: 20vw;
@@ -57,7 +56,7 @@ div.header {
 
 section {
     max-width: 100vw;
-    margin: 50px;
+    margin: 7%;
 }
 p.choose {
     text-align: center;
@@ -72,7 +71,7 @@ h3.tour-dates {
     margin-bottom: 20px;
 }
 p.tour-dates {
-    margin: 10px 0;
+    margin: 10px 2%;
 }
 span.red {
     color: red;

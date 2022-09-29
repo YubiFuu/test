@@ -32,4 +32,8 @@ ul {
 a {
     color: black;
     text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    color: bisque;
 }

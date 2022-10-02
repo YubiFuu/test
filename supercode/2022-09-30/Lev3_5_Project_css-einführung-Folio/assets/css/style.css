@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Athene";
+    src: url(../font/Athene.otf);
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url(../font/OpenSans-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+div.top {
+    position: fixed;
+    height: 39px;
+    width: 100vw;
+    min-width: 700px;
+    padding: 0px 165px;
+    font-family: "OpenSans";
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #042a5a;
+}
+
+header {
+    font-family: "Athene";
+    text-transform: uppercase;
+    background-color: #efe8d7;
+    display: flex;
+    justify-content: center;
+    color: #042a5a;
+}
+
+div.header {
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1152px;
+}
+h2 {
+    font-size: 16rem;
+    font-family: "Athene";
+}
+h2.one {
+    min-width: 1152px;
+    text-align: center;
+    border-bottom: 2px solid #042a5a;
+}
+.headline {
+    letter-spacing: -12px;
+}
+
+img.blue {
+    width: 401px;
+    margin: 50px 0 35px;
+}
+p.header {
+    font-size: 2.4rem;
+    margin-bottom: 151.22px;
+}
+span.header {
+    font-family: OpenSans;
+}
+div.main-pink {
+    background-color: #f4c4c4;
+    color: #282b29;
+}
+
+section {
+    max-width: 1440px;
+    margin: auto;
+    font-family: "OpenSans";
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+p.number {
+    align-self: flex-start;
+    padding: 100px 115px 50px;
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 16rem;
+    font-family: "Athene";
+    width: 500px;
+    height: 400px;
+    align-self: flex-start;
+}
+
+p.text {
+    display: block;
+    margin: 15px 95px 100px;
+    max-width: 535px;
+    height: 180px;
+    font-size: 1.8rem;
+}
+
+div.table-around {
+    width: 598px;
+    margin-right: 100px;
+}
+h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: right;
+    border-bottom: 1px solid #282b29;
+}
+div.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #282b29;
+}
+
+p.table-keyword {
+    font-size: 2.1rem;
+    display: flex;
+    align-items: center;
+}
+span.table {
+    font-size: 1.4rem;
+    margin-right: 30px;
+}
+
+p.table-text {
+    display: block;
+    text-align: right;
+    width: 97px;
+    padding: 30px 0;
+}
+
+svg {
+    margin: 107px;
+    border: 2px solid #7d2222;
+    border-radius: 50%;
+    padding: 6px;
+    height: auto;
+    width: 107px;
+}
+text {
+    fill: #7d2222;
+    font-size: 1.2rem;
+    letter-spacing: 0.36rem;
+    text-transform: uppercase;
+}
+div.main-orange {
+    background-color: #deb873;
+    color: #7d2222;
+}
+p.number-orange {
+    align-self: flex-end;
+}
+h3.orange {
+    align-self: flex-end;
+    text-align: right;
+}
+p.text-orange {
+    align-self: flex-start;
+    margin-bottom: 190px;
+}
+
+div.img {
+    display: flex;
+    flex-direction: column;
+    margin: 0 120px 250px 95px;
+    width: 1225px;
+    height: 420px;
+    background-image: url(../img/bg-marconatto-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 747px 420px;
+}
+
+h5 {
+    display: block;
+    width: 573px;
+    height: 180px;
+    font-family: "Athene";
+    font-size: 6.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+div.img-two {
+    margin: 0 95px 250px 95px;
+    background-image: url(../img/kathe_cover-1.jpg);
+    background-position: left;
+}
+h5.right {
+    align-self: flex-end;
+    text-align: right;
+}
+
+div.img-three {
+    background-image: url(../img/bg-nicole-1.jpg);
+}
+div.img-four {
+    margin: 0 95px 250px 95px;
+    background-image: url(../img/boa_cover-1.jpg);
+    background-position: left;
+}
+
+div.main-green {
+    background-color: #d2d2d2;
+    color: #388883;
+    height: 1123px;
+}
+p.text-end {
+    margin: 15px 0 100px;
+    align-self: center;
+    display: block;
+    width: 500px;
+    height: 144px;
+    font-size: 2.4rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0 95px 100px;
+}
+li {
+    font-size: 24px;
+    text-align: right;
+    line-height: 200%;
+    letter-spacing: -0.02em;
+}
+
+a {
+    text-decoration: none;
+    color: #388883;
+}
+a:hover {
+    border-bottom: 1px solid #388883;
+}

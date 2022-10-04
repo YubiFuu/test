@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+}
+input {
+    padding: 3px;
+    margin: 7px 0 7px;
+    width: 500px;
+}
+input[type="text"] {
+    width: 243px;
+}
+:focus {
+    outline: rgb(75, 201, 205) solid 1px;
+}
+
+input:not(input[type="text"]) {
+    display: block;
+}
+input[type="submit"] {
+    font-size: 1.6rem;
+    width: 510px;
+    height: 40px;
+    color: white;
+    background-color: rgb(77, 180, 184);
+}
+input[type="submit"]:hover {
+    background-color: rgb(61, 81, 110);
+}
+select {
+    display: block;
+    width: 510px;
+    margin: 2px 0 7px;
+}
+textarea {
+    display: block;
+    padding: 3px;
+    width: 500px;
+    height: 250px;
+}
+span {
+    color: red;
+}

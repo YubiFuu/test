@@ -19,6 +19,11 @@ nav {
     justify-content: center;
 }
 
+a.blue {
+    text-decoration: none;
+    color: #042a5a;
+}
+
 div.top {
     position: fixed;
     height: 39px;
@@ -31,6 +36,11 @@ div.top {
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #042a5a;
+}
+h1 {
+    font-family: "OpenSans";
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 header {
@@ -50,6 +60,7 @@ div.header {
     width: 1152px;
 }
 h2 {
+    font-weight: 400;
     font-size: 16rem;
     font-family: "Athene";
 }
@@ -94,6 +105,7 @@ p.number {
 }
 
 h3 {
+    font-weight: 400;
     font-size: 16rem;
     font-family: "Athene";
     width: 500px;
@@ -107,6 +119,8 @@ p.text {
     max-width: 535px;
     height: 180px;
     font-size: 1.8rem;
+    line-height: 200%;
+    letter-spacing: -0.02em;
 }
 
 div.table-around {
@@ -145,9 +159,9 @@ p.table-text {
 
 svg {
     margin: 107px;
-    border: 2px solid #7d2222;
+    border: 3px solid #7d2222;
     border-radius: 50%;
-    padding: 6px;
+    padding: 5px;
     height: auto;
     width: 107px;
 }
@@ -239,10 +253,10 @@ li {
     letter-spacing: -0.02em;
 }
 
-a {
+a.contact {
     text-decoration: none;
     color: #388883;
 }
-a:hover {
+a.contact:hover {
     border-bottom: 1px solid #388883;
 }

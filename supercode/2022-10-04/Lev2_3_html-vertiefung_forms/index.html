@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Register form</legend>
+                <div class="namen">
+                    <label for="fname">Name</label>
+                    <label for="lname">Surname</label>
+                    <label for="email">Email</label>
+                    <label for="gender">Gender</label>
+                    <label for="picture">Picture</label>
+                    <label for="country">Country</label>
+                    <br />
+                    <label for="language">Pref. Language</label>
+                    <br />
+                    <label for="activity">Field of activity</label>
+                </div>
+                <div class="felder">
+                    <input type="text" id="fname" name="fname" />
+                    <input type="text" id="lname" name="lname" />
+                    <input type="email" id="email" name="email" />
+                    <p>Female</p>
+                    <input
+                        type="radio"
+                        name="radio-input"
+                        id="gender"
+                        class="radio"
+                    />
+                    <p>Male</p>
+                    <input type="radio" name="radio-input" id="radio-input-m" />
+                    <input
+                        type="file"
+                        id="picture"
+                        name="picture"
+                        accept="image/png, image/jpeg"
+                    />
+                    <select name="countries" id="country">
+                        <option value="none">--Please choose--</option>
+                        <option value="spain">ES</option>
+                        <option value="france">FR</option>
+                        <option value="germany">GER</option>
+                        <option value="italy">IT</option>
+                        <option value="netherlands">NL</option>
+                    </select>
+                    <select name="language" id="language" multiple>
+                        <option value="html">HTML</option>
+                        <option value="css">Css</option>
+                        <option value="js">JS</option>
+                        <option value="react">React</option>
+                    </select>
+                    <p>(To choose more that one use cmd key)</p>
+                    <br />
+                    <p>IT</p>
+                    <input type="checkbox" id="activity" name="activities" />
+                    <p>Design</p>
+                    <input type="checkbox" id="activity2" name="activities" />
+                    <p>Other</p>
+                    <input type="checkbox" id="activity2" name="activities" />
+                </div>
+                <input type="submit" value="Send" />
+                <input type="button" value="Cancel" />
+            </fieldset>
+        </form>
+    </body>
+</html>

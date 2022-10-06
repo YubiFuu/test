@@ -31,6 +31,6 @@ function math(num1, num2) {
     console.log(num1 / num2);
 }
 math(10, 2);
-math(10, 10);
+math(5, 0);
 math(30, 30);
 math(45, 173);

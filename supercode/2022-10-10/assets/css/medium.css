@@ -1,0 +1,51 @@
+@media screen and (min-width: 601px) {
+    header {
+        background-position-y: 50%;
+    }
+    main section {
+        align-items: flex-start;
+    }
+
+    main section div {
+        padding: 0 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        text-align: left;
+    }
+    main section.part-two {
+        flex-flow: row wrap;
+    }
+    main section.part-two img {
+        width: 50%;
+        height: 250px;
+    }
+    main section.part-two div {
+        width: 50%;
+        height: 250px;
+        padding: 0;
+    }
+    main section.part-two div p {
+        padding: 28px 30px;
+    }
+    main section.part-two div p:nth-child(3) {
+        padding-left: 50px;
+    }
+
+    footer p {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    footer div {
+        width: 200px;
+        padding-bottom: 0;
+    }
+    footer p:last-child {
+        display: inline-block;
+        width: 95%;
+        text-align: right;
+        transform: translateY(-25px);
+        margin: 0;
+        line-height: 0;
+    }
+}

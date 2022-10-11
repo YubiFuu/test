@@ -232,6 +232,9 @@ footer p::after {
     header div div.header-two {
         padding: 10vw;
     }
+    img.big {
+        display: none;
+    }
 
     header div.image {
         display: none;

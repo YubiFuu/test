@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+/* ------------------- GENERAL ----------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+p {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+/* ------------------- HEADER ----------------- */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: url(../img/ilustracion1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 100%;
+}
+
+header div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25%;
+}
+
+header div.logo {
+    gap: 8px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+}
+header div.logo img {
+    height: 40px;
+}
+header div.logo div {
+    display: flex;
+    align-items: flex-start;
+}
+header div.logo div p {
+    font-size: 1rem;
+    padding: 0;
+}
+
+header div div {
+    width: 38vw;
+    align-items: flex-start;
+}
+header p.rocket::after {
+    background-image: url(../img/rocket.png);
+    background-size: 25px 20px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+}
+
+header div.image img {
+    height: 40vw;
+}
+header p.red {
+    color: #ff3571;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5vw;
+}
+
+/* ------------------- SECTION 1 ----------------- */
+main img {
+    width: 100%;
+    object-fit: cover;
+}
+main img.big {
+    margin: 10vw 0;
+}
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10vw 5vw;
+}
+section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.one h2 {
+    margin: 5vw 0;
+    width: 70%;
+    align-self: flex-start;
+}
+section.one div h2 {
+    max-width: 40%;
+}
+section.one div h2 span {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background-image: url(../img/idea.png);
+    background-size: cover;
+}
+
+section.one div p {
+    width: 60%;
+}
+section.one ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+section.one ul li {
+    width: 35%;
+}
+ul li {
+    font-size: 2rem;
+}
+ul li span {
+    font-weight: bold;
+}
+ul li::marker {
+    font-size: 5rem;
+}
+ul li:nth-child(1) {
+    list-style-image: url(../img/title01.svg);
+}
+ul li:nth-child(2) {
+    list-style-image: url(../img/title02.svg);
+}
+ul li:nth-child(3) {
+    list-style-image: url(../img/title03.svg);
+}
+ul li:nth-child(4) {
+    list-style-image: url(../img/title04.svg);
+}
+section.two p.first {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+section.two div div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
+section.two div div img {
+    width: 100px;
+    object-fit: contain;
+}
+p.number {
+    font-weight: bold;
+    color: #dddddd;
+    font-size: 5rem;
+}
+
+section.three p:nth-child(3) {
+    color: #adadad;
+    margin-top: 50px;
+}
+section.three p:nth-child(4) {
+    margin: 50px;
+    color: white;
+    background-color: #ff3571;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+}
+footer {
+    padding: 20px 10vw;
+}
+footer p::after {
+    background-image: url(../img/love.png);
+    background-size: 25px 20px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+}

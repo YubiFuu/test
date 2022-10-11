@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Work sans";
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Work sans";
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+a:hover {
+    color: rgb(234, 204, 194);
+}
+p {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    color: #867772;
+}
+h2 {
+    font-size: 3.8rem;
+    color: #ebccc2;
+    margin: 5vh 0;
+}
+ul {
+    list-style: none;
+}
+/* -----------------HEADER----------------- */
+header {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    font-size: 1.6rem;
+    /* background-color: #2e2e2e; */
+    color: #867772;
+}
+
+header div {
+    display: flex;
+    margin: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+header div ul {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    gap: 25px;
+}
+header div ul li:nth-of-type(1) {
+    flex-grow: 2;
+}
+
+header div ul li:nth-of-type(4) {
+    flex-grow: 2;
+}
+header nav {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    height: 50vh;
+    display: flex;
+    /*v die höhe des headers v damit die nav bar mittig ist*/
+    margin-top: -96px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* ------------- BODY ------------ */
+body {
+    background-color: #2e2e2e;
+}
+section {
+    display: flex;
+    align-items: center;
+}
+/* ------------ ABOUT ------------- */
+main.about {
+    display: flex;
+    flex-direction: column;
+}
+main.about h2 {
+    margin: 15vh 20vw;
+    max-width: 400px;
+    height: auto;
+}
+main.about img {
+    padding: 5vw;
+}
+
+main.about section {
+    width: 100vw;
+    padding: 10vw;
+}
+main.about section img {
+    width: 45vw;
+    object-fit: contain;
+}
+
+/* ------------ THE LOUNGER ------------- */
+/* ------------ EXPERIENCE ------------- */
+
+main.lounger section img {
+    min-height: 100vh;
+    width: 55vw;
+    object-fit: cover;
+}
+
+section div.text {
+    padding: 100px;
+}

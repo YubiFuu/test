@@ -1,6 +1,6 @@
 function multiple() {
     event.preventDefault();
-    const outputData = document.querySelector("h2");
+    const outputData = document.querySelector(".double");
     const number = document.querySelector(".num").value;
     outputData.innerHTML = number * 2;
 }
@@ -28,4 +28,33 @@ function changeHeadline() {
 function resetHeadline() {
     const wrapper = document.querySelector("h1");
     wrapper.classList.remove("big");
+}
+
+const result = document.querySelector(".result");
+const text = document.write;
+
+function plusOne() {
+    result.innerHTML++;
+}
+
+function plusTen() {
+    result.innerHTML = parseInt(result.innerHTML, 10) + 10;
+}
+function plusOneHun() {
+    result.innerHTML = parseInt(result.innerHTML, 10) + 100;
+}
+function minusOne() {
+    result.innerHTML--;
+}
+function minusTen() {
+    result.innerHTML = parseInt(result.innerHTML, 10) - 10;
+}
+function minusOneHun() {
+    result.innerHTML = parseInt(result.innerHTML, 10) - 100;
+}
+function multipleTwo() {
+    result.innerHTML = parseInt(result.innerHTML, 10) * 2;
+}
+function resetResult() {
+    result.innerHTML = 0;
 }

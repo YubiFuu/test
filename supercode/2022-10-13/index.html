@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 class="small">I am a headline!</h1>
+        <div>
+            <label for="num">number</label>
+            <input id="num" class="num" type="number" />
+            <button onclick="multiple()">Verdoppel mich</button>
+            <h2></h2>
+        </div>
+        <div>
+            <label for="age">Geburtsjahr eingeben</label>
+            <input id="age" class="age" type="text" />
+            <button onclick="calcAge()">Gib Alter aus</button>
+            <h3></h3>
+        </div>
+        <div>
+            <label for="age1">Alter 1</label>
+            <input id="age1" class="age1" type="text" />
+            <label for="age2">Alter 1</label>
+            <input id="age2" class="age2" type="text" />
+            <button onclick="calcAgeDif()">Berechne!</button>
+            <p>Die Differenz ist:</p>
+            <h4></h4>
+        </div>
+        <div>
+            <button onclick="changeHeadline()">Change Headline</button>
+            <button onclick="resetHeadline()">Reset Headline</button>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

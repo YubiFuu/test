@@ -18,4 +18,6 @@ function getDark() {
     wrapperFour.classList.toggle("dark");
     const wrapperFive = document.querySelector("main div.main-last");
     wrapperFive.classList.toggle("dark");
+    const wrapperSix = document.querySelector("main div.main-last p");
+    wrapperSix.classList.toggle("dark");
 }

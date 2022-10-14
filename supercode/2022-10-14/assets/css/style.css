@@ -150,7 +150,7 @@ main div.flat-rate div p.price {
     font-weight: bold;
 }
 main div.flat-rate div p.price.dark {
-    color: white;
+    color: rgb(236, 102, 71);
 }
 
 main div.deliverables div h2 {
@@ -189,13 +189,17 @@ main div.main-last {
     align-items: flex-end;
 }
 main div.main-last.dark {
-    opacity: 0.5;
+    color: rgb(236, 102, 71);
 }
 main div.main-last p {
     line-height: 200%;
     font-family: Graphik-Medium;
     width: 40%;
     margin-bottom: 2vw;
+}
+main div.main-last p.dark {
+    background-color: black;
+    border-radius: 0 20px;
 }
 main div.main-last img {
     width: 60%;

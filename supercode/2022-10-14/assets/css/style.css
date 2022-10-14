@@ -1,0 +1,231 @@
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../font/Graphik-Regular.woff);
+}
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../font/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Theinhardt;
+    src: url(../font/Theinhardt-Lt.woff);
+}
+
+@font-face {
+    font-family: TiemposHeadline;
+    src: url(../font/TiemposHeadline-Semibold.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: TiemposHeadline;
+    font-size: 2.4rem;
+}
+h2 {
+    font-family: TiemposHeadline;
+    font-size: 4rem;
+
+    /* margin-bottom: 40px; */
+}
+h3 {
+    font-family: Graphik-Regular;
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: Graphik-Medium;
+    font-size: 1.6rem;
+    /* margin-bottom: 20px; */
+}
+
+p,
+ol {
+    font-size: 1.6rem;
+    font-family: Theinhardt;
+    /* margin-bottom: 40px; */
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    margin: 5vw 0;
+    gap: 1vw;
+}
+div div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2vw;
+}
+img {
+    width: 40%;
+    object-fit: contain;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 6vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 6vw;
+}
+nav ul {
+    font-family: Graphik-Regular;
+    list-style: none;
+    display: flex;
+    gap: 1vw;
+    font-size: 1.6rem;
+}
+nav p {
+    font-family: Graphik-Medium;
+    border: 1px solid black;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+nav p.dark {
+    border-color: white;
+}
+nav p.dark:hover {
+    background-color: white;
+    color: black;
+}
+nav p:hover {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 0;
+}
+header img {
+    width: 100%;
+}
+header h3 {
+    align-self: center;
+    text-align: center;
+}
+div.flat-rate {
+    align-items: center;
+}
+
+div.flat-rate p {
+    width: 60%;
+    font-family: Graphik-Medium;
+    line-height: 180%;
+    margin-bottom: 0;
+}
+
+main div.flat-rate div {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    gap: 0;
+}
+main div.flat-rate div p {
+    color: #9fa2a7;
+    font-family: Theinhardt;
+}
+main div.flat-rate div p.price {
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+}
+main div.flat-rate div p.price.dark {
+    color: white;
+}
+
+main div.deliverables div h2 {
+    margin-bottom: 2vw;
+}
+
+main div.how-it-works {
+    background-color: #d5dae0;
+    padding: 0 4vw;
+}
+main div.how-it-works.dark {
+    background-color: #1c1d1e;
+}
+ol {
+    margin-left: 30px;
+}
+
+div.critique {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2vw;
+    margin: 5vw 25%;
+}
+
+div.critique p {
+    line-height: 200%;
+}
+main div.main-last {
+    width: 80%;
+    height: 35vw;
+    background-image: url(../img/28.png);
+    background-size: 100vw 22vw;
+    background-repeat: no-repeat;
+    background-position: -20vw 0;
+    align-items: flex-end;
+}
+main div.main-last.dark {
+    opacity: 0.5;
+}
+main div.main-last p {
+    line-height: 200%;
+    font-family: Graphik-Medium;
+    width: 40%;
+    margin-bottom: 2vw;
+}
+main div.main-last img {
+    width: 60%;
+}
+
+footer {
+    padding: 6vw 0;
+    margin: 0 6vw;
+    border-top: 1px solid #9fa2a7;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    color: #9fa2a7;
+}
+footer p::before {
+    background-image: url(../img/costume_guy.png);
+    background-size: contain;
+    content: " ";
+    display: inline-block;
+    width: 15vw;
+    height: 21vw;
+}
+span {
+    color: black;
+}
+span.dark {
+    color: white;
+}

@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img {
+        min-width: 300px;
+    }
+    main div.main-last img {
+        display: none;
+    }
+    main div.main-last p {
+        line-height: 140%;
+        min-width: 270px;
+        text-align: center;
+    }
+    main div.how-it-works {
+        text-align: center;
+    }
+
+    ol {
+        list-style-position: inside;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header img {
+        display: none;
+    }
+    div div {
+        width: 90%;
+    }
+    div.flat-rate p {
+        width: 90%;
+    }
+    main div.flat-rate div {
+        width: 100%;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2.3rem;
+        width: 90%;
+    }
+}

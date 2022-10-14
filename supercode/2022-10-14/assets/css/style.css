@@ -21,6 +21,10 @@
     margin: 0;
     padding: 0;
 }
+body.dark {
+    background-color: black;
+    color: white;
+}
 
 html {
     font-size: 62.5%;
@@ -99,10 +103,10 @@ nav p {
     padding: 5px 40px;
     border-radius: 5px;
 }
-nav p.dark {
+.dark nav p {
     border-color: white;
 }
-nav p.dark:hover {
+.dark nav p:hover {
     background-color: white;
     color: black;
 }
@@ -149,7 +153,7 @@ main div.flat-rate div p.price {
     font-size: 4rem;
     font-weight: bold;
 }
-main div.flat-rate div p.price.dark {
+.dark main div.flat-rate div p.price {
     color: rgb(236, 102, 71);
 }
 
@@ -161,7 +165,7 @@ main div.how-it-works {
     background-color: #d5dae0;
     padding: 0 4vw;
 }
-main div.how-it-works.dark {
+.dark main div.how-it-works {
     background-color: #1c1d1e;
 }
 ol {
@@ -188,7 +192,7 @@ main div.main-last {
     background-position: -20vw 0;
     align-items: flex-end;
 }
-main div.main-last.dark {
+.dark main div.main-last {
     color: rgb(236, 102, 71);
 }
 main div.main-last p {
@@ -197,7 +201,7 @@ main div.main-last p {
     width: 40%;
     margin-bottom: 2vw;
 }
-main div.main-last p.dark {
+.dark main div.main-last p {
     background-color: black;
     border-radius: 0 20px;
 }
@@ -230,6 +234,6 @@ footer p::before {
 span {
     color: black;
 }
-span.dark {
+.dark span {
     color: white;
 }

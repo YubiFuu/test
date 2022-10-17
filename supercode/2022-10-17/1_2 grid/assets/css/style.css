@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-child-one {
+    grid-column: span 2;
+}
+.grid-child-two {
+    grid-column: span 4;
+}
+.grid-child-three {
+    grid-column: span 2;
+    grid-row: span 2;
+}

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Cormorant;
+    src: url(../font/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family: Cormorant;
+    src: url(../font/CormorantGaramond-Bold.ttf);
+    font-weight: 700;
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +15,111 @@
 
 html {
     font-size: 62.5%;
+    color: #333;
+    font-family: Cormorant;
+}
+
+.grid {
+    padding: 0 5vw;
+    background-color: rgb(233, 233, 224);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 0.7fr;
+    grid-template-rows: 0.6fr repeat(5, 1fr);
+    max-height: 100%;
+}
+p {
+    font-size: 1.4rem;
+}
+header {
+    grid-column: span 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+h1 {
+    font-size: 3rem;
+    grid-column: span 3;
+    grid-row: span 2;
+    align-self: center;
+    justify-self: center;
+}
+header div {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 3px double #333;
+    border-top: 3px double #333;
+}
+
+header p {
+    align-self: center;
+    justify-self: center;
+    font-size: 1.5rem;
+}
+main {
+    grid-column: span 4;
+    grid-row: span 5;
+    gap: 1vw;
+    margin-right: 1vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 2fr 3fr 4fr;
+}
+h2 {
+    font-size: 3rem;
+    align-self: center;
+    justify-self: center;
+    grid-column: span 4;
+}
+h3 {
+    font-size: 2rem;
+}
+aside {
+    display: grid;
+    grid-template-rows: 0.3fr repeat(3, 1fr);
+    grid-column: span 1;
+    grid-row: span 4;
+    gap: 1vw;
+}
+
+.add {
+    border: 3px double;
+    padding: 10px;
+    text-align: center;
+    height: 95%;
+    min-width: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img.add {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+h4 {
+    font-size: 2rem;
+    text-align: center;
+    align-self: center;
+}
+h5 {
+    font-size: 4rem;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+figure {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+figcaption {
+    font-style: italic;
+}
+
+span {
+    color: #999;
+    font-size: 1.6rem;
+    text-decoration: underline;
 }

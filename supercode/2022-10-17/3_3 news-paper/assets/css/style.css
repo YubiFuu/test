@@ -63,7 +63,7 @@ main {
     margin-right: 1vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 2fr 3fr 4fr;
+    grid-template-rows: repeat(4, auto);
 }
 h2 {
     font-size: calc(2.5rem + 0.5vw);
@@ -76,7 +76,7 @@ h3 {
 }
 aside {
     display: grid;
-    grid-template-rows: 0.3fr repeat(3, 1fr);
+
     grid-column: span 1;
     grid-row: span 4;
     gap: 1vw;
@@ -88,10 +88,9 @@ aside {
     text-align: center;
     height: 95%;
     min-width: 200px;
-    width: 10vw;
+    width: 15vw;
     min-height: 200px;
-    height: 10vw;
-
+    height: 15vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,6 +103,7 @@ h4 {
     font-size: calc(1.5rem + 0.5vw);
     text-align: center;
     align-self: center;
+    margin-top: 1vw;
 }
 h5 {
     font-size: calc(3.3rem + 0.5vw);

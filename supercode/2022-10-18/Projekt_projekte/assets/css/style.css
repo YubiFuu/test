@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Inter-Variable";
+    src: url("../font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Inter-Variable", arial;
+}
+section {
+    padding: 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+h5 {
+    font-size: 2rem;
+    color: #4338ca;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 5rem;
+}
+
+.grid-container {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+}
+.text {
+    background-color: #4338ca;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text p:first-of-type {
+    font-size: 3.5rem;
+    color: white;
+}
+.text p:last-of-type {
+    font-size: 2rem;
+    color: white;
+}
+
+.testimonials div {
+    display: flex;
+    padding: 3vw 8vw;
+}
+
+.catgirl-two {
+    object-fit: cover;
+    min-width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    border: 2px solid #4338ca;
+    box-shadow: 20px 20px #4338ca;
+}
+.testimonials div div {
+    flex-direction: column;
+    width: 60%;
+    padding: 0;
+    justify-content: center;
+    margin-left: 5vw;
+    gap: 2vw;
+}
+.testimonials div div p {
+    font-size: 1.6rem;
+}
+.testimonials div div p:last-of-type {
+    color: #4338ca;
+}
+.testimonials div div div {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0;
+    gap: 0.5vw;
+}

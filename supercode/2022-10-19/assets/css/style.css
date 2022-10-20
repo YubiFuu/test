@@ -1,0 +1,10 @@
+body {
+    background-image: url(../img/background.gif);
+    min-height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bi-universal-access:hover {
+    opacity: 0;
+}

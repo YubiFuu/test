@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vw;
+}
+.red-cube {
+    margin: 10vw;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.red-cube:hover {
+    transform-origin: center left;
+    transform: translate(50%, 50%) rotate(90deg) scale(1.5);
+    background-color: aqua;
+}

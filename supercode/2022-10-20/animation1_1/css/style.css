@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+p {
+    font-size: 4rem;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section:first-of-type {
+    background-color: brown;
+}
+
+section:last-of-type {
+    background-color: greenyellow;
+}
+
+img {
+    animation-name: arrow-jump;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+section:last-of-type img {
+    animation-name: arrow-jump-reverse;
+}
+
+@keyframes arrow-jump {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+
+@keyframes arrow-jump-reverse {
+    0% {
+        opacity: 1;
+        transform: translateY(50px) rotate(180deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(0) rotate(180deg);
+    }
+}

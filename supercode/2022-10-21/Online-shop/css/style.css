@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../font/Karla-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Karla";
+    color: #323a45;
+}
+p,
+a {
+    font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
+p.marke {
+    color: #848484;
+    font-size: 1.4rem;
+    line-height: 200%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4vw 8vw;
+}
+nav {
+    display: flex;
+    gap: 4vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 4vw 8vw;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+a div {
+    height: auto;
+    background-color: #c0c0c0;
+}
+img:hover {
+    opacity: 0.7;
+}
+
+section {
+    display: flex;
+    gap: 2.5vw;
+}
+
+.small article {
+    width: 33%;
+}
+section article div {
+    margin: 1.5vw 0 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+section article div div {
+    flex-direction: column;
+    margin: 0;
+}
+footer {
+    width: 75%;
+
+    margin: 4vw 8vw;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+footer div section {
+    flex-direction: column;
+    margin-bottom: 4vw;
+}
+footer section > p:first-of-type {
+    font-size: 1.8rem;
+}
+footer span:nth-of-type(1) {
+    font-weight: 500;
+}
+footer span:nth-of-type(2) {
+    font-style: italic;
+}
+footer span:nth-last-of-type(2) {
+    font-weight: 800;
+}
+
+footer div section div {
+    flex-direction: column;
+}
+footer div section div a {
+    line-height: 150%;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        background-image: url(../img/Hamburger_icon.svg.png);
+        width: 33px;
+        height: 33px;
+    }
+    nav a {
+        display: none;
+    }
+    section {
+        flex-wrap: wrap;
+    }
+    .small article {
+        width: 100%;
+    }
+    footer div {
+        flex-direction: column;
+    }
+    footer div section {
+        margin-bottom: 10vw;
+        gap: 6vw;
+    }
+}

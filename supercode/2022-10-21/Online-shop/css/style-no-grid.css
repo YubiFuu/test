@@ -39,8 +39,8 @@ nav {
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     margin: 4vw 8vw;
 }
 img {
@@ -57,13 +57,12 @@ img:hover {
 }
 
 section {
-    grid-column: span 3;
     display: flex;
     gap: 2.5vw;
 }
 
 .small article {
-    grid-column: span 1;
+    width: 33%;
 }
 section article div {
     margin: 1.5vw 0 3vw;

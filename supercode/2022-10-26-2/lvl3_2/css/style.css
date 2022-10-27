@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Bodoni Moda";
+    src: url(../font/BodoniModa-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Yusei Magic";
+    src: url(../font/YuseiMagic-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}

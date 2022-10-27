@@ -58,3 +58,7 @@ function multipleTwo() {
 function resetResult() {
     result.innerHTML = 0;
 }
+
+let heightPerson2 = Number(document.getElementById("height2-input").value);
+
+console.log(document.querySelector("label"));

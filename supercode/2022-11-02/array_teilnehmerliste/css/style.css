@@ -5,3 +5,20 @@
 html {
     font-size: 62.5%;
 }
+input {
+    margin-left: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+ul {
+    min-width: 30%;
+    width: fit-content;
+    padding: 10px;
+    list-style: none;
+}
+li {
+    margin: 2px;
+    border: 1px solid rgb(24, 33, 58);
+    background-color: rgb(233, 240, 247);
+    border-radius: 10px;
+}

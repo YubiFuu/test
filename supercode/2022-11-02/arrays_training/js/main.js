@@ -12,14 +12,16 @@ let maki = ["shake", "tekka", "kampyo", "tamago"];
 maki.unshift("tako", "inari", "avo");
 console.log(maki);
 
-let maki1 = maki.shift();
-console.log(maki1);
+// let maki1 = maki.shift();
+// console.log(maki1);
 
-let maki2 = maki.shift();
-console.log(maki2);
+// let maki2 = maki.shift();
+// console.log(maki2);
 
-let maki3 = maki.shift();
-console.log(maki3);
+// let maki3 = maki.shift();
+// console.log(maki3);
+let maki4 = [maki.shift(), maki.shift(), maki.shift()];
+console.log(maki4);
 
 let heroUndEnemy = [
     ["Batman", "The Joker"],

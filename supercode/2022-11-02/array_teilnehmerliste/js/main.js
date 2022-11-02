@@ -8,7 +8,6 @@ let arrayText = [];
 btnAdd.addEventListener(`click`, (event) => {
     event.preventDefault();
     arrayText.push("&#129488; " + textInput.value + "</br>");
-
     textOutput.innerHTML = arrayText.join("");
 });
 btnRemove.addEventListener(`click`, (event) => {

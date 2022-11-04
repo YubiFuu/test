@@ -30,12 +30,12 @@ let array2 = array.map((x) => {
 console.log(array2);
 
 let checkNumber = array.map((x) => {
-    if (x % 3 == false) {
+    if (x % 3 == true) {
         //false means 0 in this case. if there is no rest it gets divided by 3.
         return x + 100;
     } else {
         return x;
     }
 });
-
+console.log(array);
 console.log(checkNumber);

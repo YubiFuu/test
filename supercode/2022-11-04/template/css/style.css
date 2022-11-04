@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../font/Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Gloria";
+    src: url(../font/GloriaHallelujah-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Karla";
+}
+
+a {
+    color: rgb(218, 218, 85);
+}
+a:hover {
+    color: rgb(218, 183, 85);
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: rgb(210, 210, 210);
+}
+main {
+    margin: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 160%;
+    gap: 5vw;
+}
+
+section:not(:last-of-type) {
+    min-width: 200px;
+    padding: 2vw;
+    border: 1px solid rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+section:first-of-type {
+    flex-direction: column;
+    gap: 1vw;
+}
+.choose {
+    color: rgb(184, 43, 43);
+    font-family: "Gloria";
+    font-size: 75%;
+    line-height: 100%;
+    width: fit-content;
+    transform: rotate(350deg);
+    text-align: center;
+    position: absolute;
+    right: -180px;
+    bottom: 0;
+}
+input[type="radio"]:not(:first-of-type) {
+    margin-left: 8px;
+}
+
+.name-tag {
+    background-color: rgb(184, 43, 43);
+    position: absolute;
+    width: 50px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.name-tag:first-of-type {
+    left: -15px;
+}
+.name-tag {
+    right: -15px;
+}
+button {
+    margin: 0 1.5vw;
+    border-radius: 50%;
+    border: 7px solid rgb(162, 162, 162);
+    background-color: transparent;
+    aspect-ratio: 1 / 1;
+    width: 50px;
+}
+button:first-of-type img {
+    width: 20px;
+}
+
+img {
+    width: 23px;
+    filter: invert(100%) sepia(6%) saturate(399%) hue-rotate(191deg)
+        brightness(116%) contrast(86%);
+}
+button:disabled img {
+    filter: invert(22%) sepia(4%) saturate(83%) hue-rotate(314deg)
+        brightness(95%) contrast(81%);
+}
+
+button:disabled {
+    border: 7px solid rgb(68, 68, 68);
+}
+h2 {
+    color: rgb(68, 68, 68);
+}

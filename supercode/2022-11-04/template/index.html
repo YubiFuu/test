@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <p>how many rounds?</p>
+                <p class="choose">choose rounds before to begin!</p>
+                <article id="radio-hide">
+                    <input type="radio" name="rounds" id="radio5" />
+                    <label for="radio5">5</label>
+
+                    <input type="radio" name="rounds" id="radio10" />
+                    <label for="radio10">10</label>
+
+                    <input type="radio" name="rounds" id="radio15" />
+                    <label for="radio15">15</label>
+
+                    <input type="radio" name="rounds" id="radio20" />
+                    <label for="radio20">20</label>
+                </article>
+                <h3 hidden>
+                    <span id="count">0</span> / <span id="max-rounds">0</span>
+                </h3>
+            </section>
+            <section>
+                <p class="name-tag">User</p>
+                <p>
+                    <span id="score-user">0</span> :
+                    <span id="score-ai">0</span>
+                </p>
+                <p class="name-tag">AI</p>
+            </section>
+            <h2 disabled>Let's play!</h2>
+            <section>
+                <button id="rock" value="1">
+                    <img src="./img/hand-back-fist-regular.svg" alt="" />
+                </button>
+                <button id="paper" value="2">
+                    <img src="./img/hand-regular.svg" alt="" />
+                </button>
+                <button id="scissors" value="3">
+                    <img src="./img/hand-scissors-regular.svg" alt="" />
+                </button>
+            </section>
+            <p>Make your move.</p>
+            <a href="./index.html">restart</a>
+            <script src="./js/main.js"></script>
+        </main>
+    </body>
+</html>

@@ -5,7 +5,9 @@ console.log(text.length);
 function splitText() {
     let variable = Math.ceil(text.length / 100);
     for (i = 0; i < variable; i++) {
-        array.push(text.slice(0 + i * 100, 100 + i * 100));
+        array.push(
+            text.slice(0 + i * 100, 100 + i * 100) + ` || ${i + 1} of 27`
+        );
     }
 }
 splitText();
@@ -15,9 +17,9 @@ let numArr = [5, 22, 15, 100, 55];
 let numArr2 = [];
 let textOutput = document.querySelector("h2");
 numArr.forEach((a) => {
-    for (i = 0; i < 100; i++) {
+    for (i = 2; i < a; i++) {
         if (a % i == 0) {
-            textOutput.innerHTML += `${a} id devidable by ${i}. The result is: ${
+            textOutput.innerHTML += `${a} is devidable by ${i}. The result is: ${
                 a / i
             }! <br>`;
         }

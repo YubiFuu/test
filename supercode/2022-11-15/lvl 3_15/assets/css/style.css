@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Smokum";
+    src: url(../fonts/Smokum-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 200px;
+    height: 400px;
+    color: rgb(233, 238, 243);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: "Smokum";
+    font-size: 150%;
+}
+
+.top {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(0, 0, 0, 0.347);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.bottom {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+h2 {
+    margin: 0 20px;
+}
+
+.left {
+    position: absolute;
+    bottom: 125px;
+    left: -125px;
+    height: 50px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.347);
+    border-radius: 10px;
+    transform: rotate(270deg);
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    position: absolute;
+    bottom: 125px;
+    right: -125px;
+    height: 50px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.347);
+    border-radius: 10px;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+}

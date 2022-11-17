@@ -38,6 +38,9 @@ body {
     border-radius: 10px;
     justify-content: center;
 }
+.top p {
+    text-align: center;
+}
 
 .bottom {
     position: relative;

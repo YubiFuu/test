@@ -5,4 +5,39 @@
 
 html {
     font-size: 62.5%;
+    color: white;
+}
+main {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+article {
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
 }
